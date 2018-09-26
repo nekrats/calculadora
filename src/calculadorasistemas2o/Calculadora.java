@@ -11,11 +11,17 @@ public class Calculadora {
         x = in.nextInt();
         System.out.println("Pasame un 2o numero");
         c = in.nextInt();
-        System.out.println("resultado: "+suma(x,c));
+        System.out.println("resultado suma: "+suma(x,c));
+        System.out.println("resultado resta: "+resta(x,c));
     }
     public static int suma (int x,int c){
         int o;
         o = x+c;
         return o;
+    }
+    public static int resta(int x, int c){
+        int r;
+        r=x-c;
+        return r;
     }
 }
