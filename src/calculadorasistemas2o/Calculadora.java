@@ -6,19 +6,16 @@ public class Calculadora {
  
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a, b;
-        int x,y;
+        int x,c;
         System.out.println("Pasame 1 numeros");
-        a = in.nextInt();
+        x = in.nextInt();
         System.out.println("Pasame un 2o numero");
-        b = in.nextInt();
-        suma(x);
+        c = in.nextInt();
+        System.out.println("resultado: "+suma(x,c));
     }
-    private static int suma (int x){
-        int a,b,suma;
-        a=in.nextInt();
-        b=in.nextInt();
-        suma = a+b;
-        return x;
+    public static int suma (int x,int c){
+        int o;
+        o = x+c;
+        return o;
     }
 }
